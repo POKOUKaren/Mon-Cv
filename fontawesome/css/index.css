@@ -1,0 +1,476 @@
+
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+body {
+    justify-content: center;
+
+}
+
+.general {
+    background-color:white;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#head {
+    display: flex;
+    width: 100%;
+    height: auto;
+    top: 25px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 50px;
+    background-color:azure;
+}
+
+.profil {
+    padding: 20px;
+   
+}
+
+.profil img {
+    border: 1px solid 0;
+    border-radius: 50%;
+    float: left;   
+   
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.profil-head h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.job {
+    font-size: 25px;
+    margin-top: 1rem;
+    font-weight: bold;
+    color:green;
+}
+
+.rubrique {
+    float: right;
+    margin-left: 50px;
+}
+
+.infos {
+    display: grid;
+    grid-template-columns: 40% 35% 25%;
+    grid-column-start: center;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.infos i {
+    color:green;
+    margin-right: 1rem;
+}
+
+.infos h3 {
+    margin-bottom: 15px;
+    color:black;
+    margin-left: 25px;
+}
+
+#container {
+    display: grid;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    grid-template-columns: 1fr 2fr;
+    -ms-grid-column-align: center;
+    margin-top: 25px;
+    margin: 0 auto;
+    user-select: none;
+}
+
+#container .left-type {
+    background-color:cadetblue;
+    position: relative;
+    padding: 20px;
+}
+
+#container .right-type {
+    background-color: azure;
+    position: relative;
+
+}
+
+.strenght {
+    margin-top: 50px;
+}
+
+.strenght .strenght-type li {
+    color:white;
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.strenght .strenght-type li span {
+    font-size: 15px;
+    margin-right: 15px;
+
+}
+
+.strenght h3 {
+    color:indigo;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+
+
+.learning {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.learning .learn-type {
+    margin: 1rem;
+
+}
+
+.learning .learn-type h2 {
+    left: 0px;
+    color:greenyellow;
+    font-size: 25px;
+}
+
+.learning .learn-type p {
+    color: azure;
+    font-size: 25px;
+    display: inline-block;
+
+}
+
+.learning h3 {
+    color:indigo;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+.langue {
+    margin-top: 100px;
+}
+
+.langue h2 {
+    color:indigo;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+.langues {
+    margin: 20px;
+}
+
+.langues h3 {
+    color:white;
+    font-size: 25px;
+}
+
+.langues .percent1 {
+    height: 5px;
+    width: 100%;
+    background-color:yellowgreen;
+}
+
+.langues .percent3 span {
+    height: 5px;
+    width: 25%;
+    position: absolute;
+    background-color:yellowgreen;
+}
+
+.langues .percent3 {
+    height: 3px;
+    width: 100%;
+    background-color:black;
+}
+
+.interet {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.interet div {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: azure;
+}
+
+.interet .hobie {
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+}
+
+.interet h2 {
+    color:indigo;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+
+/* Les styles relatifs au coté gauche la page*/
+
+
+.right-type {
+    padding: 20px;
+}
+
+
+.about {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.about h2 {
+
+    display: inline-block;
+    position: relative;
+    width: 90%;
+    border-bottom: 4px solid green;
+    margin-bottom: 25px;
+    color: indigo;
+    font-size: 30px;
+}
+
+.about p {
+    color:black;
+    font-size: 25px;
+}
+
+.experience {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.espace {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.experience h2 {
+    display: inline-block;
+    position: relative;
+    color:indigo;
+    width: 90%;
+    border-bottom: 4px solid green;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.experience .fonction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.expe-general {
+    border-bottom: 1px 0px #BFC9CA;
+    margin-bottom: 50px;
+}
+
+
+
+
+.titre_date span {
+    color:yellowgreen;
+    margin-right: 10px;
+}
+
+.tache p {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.tache p:first-child {
+    font-weight: bold;
+}
+
+.lieu span {
+    color:yellowgreen;
+    margin-right: 10px;
+}
+
+.education {
+    width: 100%;
+}
+
+.education h2 {
+    color:indigo;
+    display: inline-block;
+    position: relative;
+    width: 90%;
+    border-bottom: 4px solid green;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date span {
+    color:yellowgreen;
+    margin-right: 10px;
+}
+
+.institut {
+    /* color:blue; */
+    /* font-style: italic; */
+    font-weight: normal !important;
+}
+
+.type_format {
+    margin-bottom: 30px;
+    border-bottom: 1px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.type_format .ecole p {
+    font-size: 25px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.ecole {
+    margin-bottom: 10px;
+}
+
+
+
+/*Styles relatifs aux  autres formations*/
+
+
+.autre-format {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.format-other {
+    display: inline-block;
+    position: relative;
+    color:indigo;
+    width: 90%;
+    border-bottom: 4px solid green;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.certificate {
+
+    display: inline-block;
+    text-align: center;
+    text-decoration: underline;
+    font-style:initial;
+    color: indigo;
+    margin: 35px;
+
+
+}
+
+.online {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px 0px 0px;
+    margin-bottom: 20px;
+
+}
+
+.online h2 {
+    color:yellowgreen;
+}
+
+.online span {
+    color:yellowgreen;
+    margin-right: 10px;
+}
+
+
+/*Styles relatifs aux formations hors du cadres professionnelles*/
+
+
+.extra-pro {
+    margin-top: 25px;
+}
+
+.format-general {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px 0px 0px;
+    margin-bottom: 35px;
+}
+
+.format-extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.format-extra span {
+    color:yellowgreen;
+    margin-right: 10px;
+}
+
+.work-extra p:first-child {
+   
+    font-weight: bold;
+}
+
+.leadership {
+    margin-bottom: 50px;
+}
+
+.leadership ul li {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.leadership ul li span {
+    color:black;
+    margin-right: 15px;
+}
+
+
+
